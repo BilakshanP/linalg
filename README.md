@@ -10,7 +10,7 @@
 
 Open your bash terminal and paste the following command(s):
 > ```sh
-> git clone https://github.com/BilakshanP/linalg
+> git clone https://github.com/SketchX7/linalg
 > cd linalg
 > bash ./set-up.sh
 > ```

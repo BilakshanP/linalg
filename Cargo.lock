@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "LinAlg"
-version = "0.1.0"
-dependencies = [
- "pyo3",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -38,6 +31,13 @@ name = "libc"
 version = "0.2.149"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a08173bc88b7955d1b3145aa561539096c421ac8debde8cbc3612ec635fee29b"
+
+[[package]]
+name = "linalg"
+version = "0.1.0"
+dependencies = [
+ "pyo3",
+]
 
 [[package]]
 name = "lock_api"

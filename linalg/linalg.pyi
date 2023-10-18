@@ -1,4 +1,4 @@
-from .LinAlg import *
+from .linalg import *
 
 import algorithms
 

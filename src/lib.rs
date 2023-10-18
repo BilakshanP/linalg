@@ -41,7 +41,7 @@ fn module_2(_py: Python, m: &PyModule) -> PyResult<()> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn LinAlg(_py: Python, m: &PyModule) -> PyResult<()> {
+fn linalg(_py: Python, m: &PyModule) -> PyResult<()> {
     // m.add_submodule(wrap_pymodule!(module_1));
     let module_1 = PyModule::new(_py, "mod_1")?;
     module_1.add_function(wrap_pyfunction!(func_1_1, module_1)?)?;

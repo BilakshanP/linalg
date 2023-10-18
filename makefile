@@ -20,13 +20,13 @@ predump:
 dump:
 	@make idump
 	@echo Dumping debug...
-	@objdump -wDr -Mintel ./target/debug/LinAlg >> dump.asm
+	@objdump -wDr -Mintel ./target/debug/linalg >> dump.asm
 	@echo Dumping done.
 
 rdump:
 	@make idump
 	@echo Dumping release...
-	@objdump -wDr -Mintel ./target/release/LinAlg >> dump.asm
+	@objdump -wDr -Mintel ./target/release/linalg >> dump.asm
 	@echo Dumping done.
 
 clean:

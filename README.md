@@ -1,5 +1,5 @@
 <h1 align="center"><b>linalg | Python X Rust</b></h1>
-<h4 align="center">A Python linear algebra library, written in Rust, using PyO3 binding and developed in Maturin.</h4>
+<h4 align="center">A Python linear algebra library, written in Rust, using Maturin with PyO3 bindings.</h4>
 
 <h6 align="center">Aimed to be simple to use and targeted towards non-data-science related tasks.</h6>
 <br>

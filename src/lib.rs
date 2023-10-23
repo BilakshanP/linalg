@@ -5,7 +5,6 @@ mod macros;
 
 use prelude::*;
 
-/// A Python module implemented in Rust.
 #[pymodule]
 fn linalg(_py: Python, m: &PyModule) -> PyResult<()> {
     Ok(())

@@ -18,3 +18,16 @@ macro_rules! insert_classes {
         $( $m.add_class::< $class >()?; )*
     };
 }
+
+mod inner {
+    #[macro_export]
+    macro_rules! import_module {
+        ( $( $module_name:ident ),* ) => {
+            $( mod $module_name; )*
+        };
+    
+        ( pub, $( $module_name:ident ),* ) => {
+            $( pub mod $module_name; )*
+        }
+    }
+}

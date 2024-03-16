@@ -1,12 +1,12 @@
-use super::Matrix;
-
-use crate::prelude::*;
+// use super::Matrix;
+//
+// use crate::prelude::*;
 
 // impl Default for Matrix {
 //     fn default() -> Self {
 //         Matrix {
 //             mat: Vec::new(),
-            
+
 //             row: 0,
 //             col: 0,
 
@@ -19,7 +19,7 @@ use crate::prelude::*;
 //             inverse: NC,
 
 //             is_square: false,
-//             is_identity: None   
+//             is_identity: None
 //         }
 //     }
 // }

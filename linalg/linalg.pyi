@@ -7,6 +7,12 @@ from .linalg import *
 def reverse_string(string: str) -> str:
     """Returns a reversed string."""
 
+def run() -> None:
+    """Runs the main function."""
+
+def okay() -> None:
+    """Runs the okay function."""
+
 class MatrixDemo:
     # def __new__(cls, _):
         # return super.__new__(cls)

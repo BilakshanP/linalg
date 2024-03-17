@@ -1,9 +1,9 @@
 <span align="center">
 
-  # ***linalg* | Python X Rust**
-  #### A Python linear algebra library, written in Rust, using Maturin with PyO3 bindings.
-  ##### Powered by: [Vectra](https://www.github.com/bilakshanp/vectra) <!--- & NumPy -->
-  ###### Aimed to be simple to use and targeted towards non-data-science related tasks.
+  <h1><b><i>linalg</i> | Python X Rust </b></h1>
+  <h4> A Python linear algebra library, written in Rust, using Maturin with PyO3 bindings. </h4>
+  <h5> Powered by: <a href="https://www.github.com/bilakshanp/vectra">Vectra</a> <!--- & NumPy --> </h5>
+  <h6> Aimed to be simple to use and targeted towards non-data-science related tasks. </h6>
 
 </span>
 
